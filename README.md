@@ -1,4 +1,4 @@
-#使用方法
+# 使用方法
 分布式使用的是redis,用下自己的redisService
 ```
 String key="somework";
