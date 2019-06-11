@@ -1,4 +1,4 @@
-package com.yimilan.teacher.api.commons.work;
+package net.highersoft.commons.work;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
