@@ -1,4 +1,6 @@
-//使用方法
+#使用方法
+分布式使用的是redis,用下自己的redisService
+```
 String key="somework";
 LongTimeWorkThread ltw=new LongTimeWorkThread() {
 	
@@ -20,3 +22,4 @@ if(startInfo.isThisStartFlag()) {
 	SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	rstInfo="启动失败,现在执行的是"+sdf.format(startInfo.getStartTime())+"开始的任务";
 }
+```
